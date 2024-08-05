@@ -1,0 +1,37 @@
+Basic Problems
+1.Type Annotations
+
+1.a.Write a function add that takes two numbers and returns their sum. Add appropriate type annotations.
+2.a.Write a function greet that takes a string (name) and an optional number (age) and returns a greeting message. Use type annotations and default parameters.
+
+2.Interfaces
+2.a.Define an interface Person with properties name (string) and age (number). Create an object that adheres to this interface and write a function printPerson that takes a Person and logs their details.
+
+3.Type Aliases
+3.a.Define a type alias ID for a string. Write a function getUserById that takes an ID and returns a user object with properties id (ID) and name (string).
+
+Intermediate Problems
+
+1.Generics
+1.a.Write a generic function identity that takes an argument of any type and returns that same argument.
+2.a.Implement a generic Stack class with methods push, pop, and peek. Ensure that the stack only contains elements of the same type.
+
+2.Union Types
+2.a.Write a function formatValue that takes a value which can be either a string or a number and returns a formatted string. If it’s a number, return it as a string with two decimal places.
+
+3.Enums
+3.a.Define an enum Role with values Admin, User, and Guest. Write a function describeRole that takes a Role and returns a description based on the role.
+
+Advanced Problems
+
+1.Mapped Types
+
+1.a.Create a mapped type Readonly<T> that makes all properties of type T readonly.
+2.b.Use the Readonly mapped type on an interface User with properties name (string) and age (number).
+
+2.Conditional Types
+2.a.Implement a type Extract<T, U> that extracts from T all types that are assignable to U.
+2.b.Write a function isString that uses type guards to determine if a given argument is a string.
+
+3.Type Inference
+3.a.Write a function merge that takes two objects and merges them into one. Ensure that the type of the result reflects the types of the input objects.
